@@ -1,6 +1,6 @@
 name: My Test Actions
 
-on: []
+on: [push]
 
 jobs:
 

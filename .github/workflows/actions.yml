@@ -12,7 +12,7 @@ jobs:
             - uses: actions/checkout@v3
 
             # setup node (typescript)
-            - use: actions/setup-node@v3.5
+            - uses: actions/setup-node@v3.5
               with:
                 node-version: 16
 

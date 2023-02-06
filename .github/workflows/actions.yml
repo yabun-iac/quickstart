@@ -25,6 +25,10 @@ jobs:
             - name: "setup GCP"
               uses: "google-github-actions/setup-gcloud@v1"
 
+            # pulumi setup
+            - name: Install Pulumi CLI
+              uses: pulumi/setup-pulumi@v2
+
             # pulumi
             - name: "exec pulumi"
               uses:  pulumi/actions@v3

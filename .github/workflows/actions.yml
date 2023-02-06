@@ -3,7 +3,6 @@ name: Create Bucket
 on: [push]
 
 jobs:
-
     testing-action:
 
         runs-on: ubuntu-latest

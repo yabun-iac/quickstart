@@ -3,11 +3,13 @@ name: Create Bucket
 on: [push]
 
 jobs:
+
     testing-action:
+
         runs-on: ubuntu-latest
         steps:
             # checkout code
-            - use: action/checkout@v3
+            - uses: action/checkout@v3
 
             # setup node (typescript)
             #- use: actions/setup-node@v3.5

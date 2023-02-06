@@ -16,7 +16,7 @@ jobs:
               with:
                 node-version: 16
 
-            - name: After setting up the Pulumi project specific language environment, we need to install the dependencies also
+            - name: "npm install"
               run: npm install
 
             # auth GCP
